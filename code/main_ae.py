@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-from preprocess_final import get_full_data
+from preprocess import get_full_data
 from CNN_model import CNNModel
 from autoencoder_model import Autoencoder, AEClassifier
 import matplotlib.pyplot as plt
